@@ -120,14 +120,11 @@ Wyniki powinny zawierać, następujące kolumny:
 * `blood_type_2` - grupa krwi, która wystąpiła jako trzecia w sekwencji
 
 ## Zadanie 7
-Obawiamy się, że dawcy będą oddawać coraz mniej krwi. Aby na to 
-wystarczająco wcześnie zareagować, chcemy jak najszybciej 
-wykrywać przypadki zmniejszania się wielkości donacji w poszczególnych miastach. 
-Wykrywaj miasta, w których w trakcie trzech kolejnych sekund 
-zarejestrowano stale zmniejszającą się sumę ilości oddawanej krwi. 
+Wykrywaj serie co najmniej trzech donacji w tym samym mieście,
+w których każda kolejna donacja jest mniejsza niż poprzednia.
 
-Wyniki powinny zawierać, następujące kolumny:
-* `donation_size1` - łączna ilość krwi oddanej w pierwszej sekundzie serii
-* `donation_size2` - łączna ilość krwi oddanej w drugiej sekundzie serii
-* `donation_size3` – łączna ilość krwi oddanej w trzeciej sekundzie serii
-* `city` - nazwa miasta.
+Wyniki powinny zawierać następujące kolumny:
+* `city` - nazwa miasta
+* `first_donation` - wielkość pierwszej donacji w serii
+* `last_donation` - wielkość ostatniej donacji w serii
+* `how_many` - liczba donacji w serii
