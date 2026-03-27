@@ -64,7 +64,8 @@ Wyniki powinny zawierać, następujące kolumny:
 
 
 ## Zadanie 3
-Znajduj przypadki, w których wielkość donacji jest równa maksimum z ostatnich 10 sekund.
+Znajduj przypadki, w których wielkość donacji jest równa 
+maksimum z donacji zarejestrowanych w ciągu ostatnich 10 sekund.
 
 Wyniki powinny zawierać, następujące kolumny:
 * `blood_type` - grupa krwi
