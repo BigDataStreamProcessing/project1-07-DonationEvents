@@ -112,7 +112,8 @@ ponieważ ich krew można przetoczyć każdemu.
 Następnie chcemy odbierać krew od dawców grupy krwi B lub A, a na koniec AB, 
 ponieważ jest najmniej uniwersalna.
 
-Wykryj sekwencję, w której najpierw występuje grupa krwi 0, 
+Wykrywaj serie donacji (następujących po sobie bezpośrednio), 
+w których najpierw występuje grupa krwi 0, 
 następnie A lub B a na koniec AB.
 
 Wyniki powinny zawierać, następujące kolumny:
