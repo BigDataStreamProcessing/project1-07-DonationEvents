@@ -75,10 +75,10 @@ Wyniki powinny zawierać, następujące kolumny:
 
 
 ## Zadanie 4
-Utrzymywane są 2 listy. W pierwszej utrzymywane są miasta, dla których 
-oddano najwięcej ilości krwi grupy A w ciągu ostatniej minuty. 
-Na drugiej liście utrzymywane są miasta, dla których oddano 
-najwięcej ilości krwi grupy B w ciągu ostatniej minuty.
+Utrzymywane są 2 listy. W pierwszej utrzymywane są miasta, dla których zarejestrowano 
+donację największej ilości krwi grupy A w ciągu ostatniej minuty. 
+Na drugiej liście utrzymywane są miasta, dla których zarejestrowano 
+donację największej ilości krwi grupy B w ciągu ostatniej minuty.
 Znajduj te miasta, które w ciągu ostatniej minuty znalazły się 
 na obu tych listach jednocześnie.
 
